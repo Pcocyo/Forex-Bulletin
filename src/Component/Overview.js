@@ -13,8 +13,8 @@ const Overview = () => {
         width='80%'
         display="flex"
         justifyContent="center"
+        borderTop='16px solid #7E30E1'
         alignItems="center"
-        gap="200px"
         bgColor='white'
         boxShadow='0 2px 5px rgba(57, 55, 254, 0.2)' p='3' rounded='md'
       >

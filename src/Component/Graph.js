@@ -5,12 +5,12 @@ import {Box} from '@chakra-ui/react'
 const Graph = () => {
     useEffect(() => {
         const lineStyle = {
-          borderColor: "#5755FE",
+          borderColor: "#7E30E1",
           tension: "0.3",
         };
         const pointStyle = {
           pointStyle: "circle",
-          backgroundColor:'#5755FE',
+          backgroundColor:'#7E30E1',
           hitRadius:'5',
           tension: "0.3",
         };
@@ -46,12 +46,12 @@ const Graph = () => {
             },
             x: {
               grid: {
-                color: "#8B93FF",
+                color: "#7E30E1   ",
                 tickColor: "white",
-                lineWidth:'0.5',
+                lineWidth:'0.9',
               },
               border: {
-                color: "black",
+                color: "#7E30E1",
               },
             },
           },
@@ -114,7 +114,6 @@ const Graph = () => {
         <Box 
         h='100%'
         w='100%'
-        
         bgColor='white'
         boxShadow='0 2px 5px rgba(57, 55, 254, 0.2)'
         >

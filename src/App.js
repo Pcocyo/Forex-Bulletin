@@ -12,6 +12,7 @@ const App = () => {
     alignContent='center'
     bgColor="#F3F8FF"
     p='10px'
+    boxSizing="border-box"
     >
       <Grid
         templateRows="repeat(4,1fr)"
